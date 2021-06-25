@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: yellow;
+    min-height: 80px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+.forPic{
+    border-radius: 50%;
+    height: 60px;
+}
+/* Nav Bar */
+nav{
+    background-color: black;
+}
+.menu{
+    flex: 3;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+button{
+    background-color: black;
+    color: white;
+}
+/* Bottom Container */
+
+#info{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+/* For Profile ID */
+.profile{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+}
+.top{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100px;
+    position: relative;
+}
+.top img{
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 3%;
+
+}
+.card{
+    border: 1px solid black;
+    min-height: 15px;
+    padding: 35px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+.location img{
+    height: 30px;
+}
+.settings a img{
+    width: 20px;
+}
+#right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+/* EDU */
+.edu{
+    background-color: blueviolet;
+}
+.edu_top{
+    background-color: white;
+    padding-left: 30px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+}
+.edu_info{
+    padding: 15px 30px;
+    min-height: 90px;
+}
+/* Right side of page */
+#right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Request */
+.request{
+    background-color: green;
+}
+
+.request_top{
+    background-color: white;
+    padding-left: 30px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.request_info{
+    padding: 15px 30px;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.adrien{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.alayne{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.acceptDecline{
+    flex: 1;
+}
+
+.acceptDecline img{
+    height: 30px;
+}
+
+.namePic{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.acceptDecline button{
+    border-radius: 50%;
+    min-height: 30px;
+}
+
+/* Friends */
+.friends{
+    background-color: red;
+}
+
+.friends_top{
+    background-color: white;
+    padding-left: 30px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.friends_info{
+    padding: 15px 30px;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.anne{
+    display: flex;
+    align-items: center;
+    gap: 28px
+}
+.arry{
+    display: flex;
+    align-items: center;
+    gap: 28px
+}
+.jane{
+    display: flex;
+    align-items: center;
+    gap: 28px
+}
+.phile{
+    display: flex;
+    align-items: center;
+    gap: 28px
+}
