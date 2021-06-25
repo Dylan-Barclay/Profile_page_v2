@@ -3,8 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: url(./Pictures/pexels-alberlan-barros-7311921.jpg);
+    background-size: cover
+}
 .container{
-    background-color: yellow;
     min-height: 80px;
     width: 70%;
     margin: 0 auto;
@@ -19,11 +22,11 @@
 }
 /* Nav Bar */
 nav{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .menu{
     flex: 3;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     gap: 30px;
@@ -31,9 +34,13 @@ nav{
     font-size: 1.5em;
     color: white;
 }
-button{
+.container button{
     background-color: black;
     color: white;
+}
+.menu a {
+    text-decoration: none;
+    color: azure;
 }
 /* Bottom Container */
 
@@ -46,13 +53,11 @@ button{
 }
 /* For Profile ID */
 .profile{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
-
 }
 .top{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.329);
     width: 100%;
     margin: 0 auto;
     min-height: 100px;
@@ -64,12 +69,14 @@ button{
     position: absolute;
     top: 40px;
     left: 3%;
+    border: 1px black solid ;
 
 }
 .card{
     border: 1px solid black;
     min-height: 15px;
     padding: 35px;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 .location{
     display: flex;
@@ -79,8 +86,11 @@ button{
 .location img{
     height: 30px;
 }
+.settings a{
+    color: black;
+}
 .settings a img{
-    width: 20px;
+    width: 20px;;
 }
 #right{
     flex: 2;
@@ -91,19 +101,19 @@ button{
 }
 
 /* EDU */
-.edu{
-    background-color: blueviolet;
-}
 .edu_top{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.329);
     padding-left: 30px;
     min-height: 30px;
     display: flex;
     align-items: center;
+    color: azure;
 }
 .edu_info{
     padding: 15px 30px;
     min-height: 90px;
+    color: azure;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 /* Right side of page */
 #right{
@@ -113,16 +123,13 @@ button{
 }
 
 /* Request */
-.request{
-    background-color: green;
-}
-
 .request_top{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.329);
     padding-left: 30px;
     min-height: 30px;
     display: flex;
     align-items: center;
+    color: azure;
 }
 
 .request_info{
@@ -131,6 +138,8 @@ button{
     display: flex;
     flex-direction: column;
     gap: 6px;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: azure;
 }
 
 .adrien{
@@ -166,15 +175,20 @@ button{
 
 /* Friends */
 .friends{
-    background-color: red;
+    border: 1px black solid;
+}
+.friends:hover{
+    size: 1.1;
+
 }
 
 .friends_top{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.329);
     padding-left: 30px;
     min-height: 30px;
     display: flex;
     align-items: center;
+    color: azure;
 }
 
 .friends_info{
@@ -183,6 +197,8 @@ button{
     display: flex;
     flex-direction: column;
     gap: 6px;
+    color: azure;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 .anne{
     display: flex;
@@ -203,4 +219,16 @@ button{
     display: flex;
     align-items: center;
     gap: 28px
+}
+.viewmore{
+    background-color: rgba(0, 0, 0, 0.329);
+    min-height: 10px;
+    padding-left: 20px;
+}
+.viewmore a{
+    color: azure;
+    text-decoration: none;
+}
+.viewmore a:active{
+    color: black;
 }
